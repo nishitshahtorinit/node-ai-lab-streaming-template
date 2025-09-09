@@ -1,0 +1,19 @@
+{
+  "name": "ai-node-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20 <23" },
+  "scripts": {
+    "start": "node src/index.mjs",
+    "test": "vitest --run",
+    "lint": "node -e \"console.log('lint placeholder; add ESLint later if needed')\""
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.60.0"
+  }
+}
